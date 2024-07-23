@@ -1,14 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import Home from './pages/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
+<<<<<<< HEAD
       <p>holvooooy</p>
+=======
+      <div className='bg-slate-800 h-[100vh] py-3 px-5'>
+        <Home />
+      </div>
+>>>>>>> acf50a8cdb2df26fc80d133831ced03ba69b6497
     </>
   )
 }
