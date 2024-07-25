@@ -16,15 +16,15 @@ const resources = {
 };
 
 i18n
-  .use(LanguageDetector) // Detect user language
-  .use(initReactI18next) // Passes i18n instance to react-i18next
+  .use(LanguageDetector) 
+  .use(initReactI18next) 
   .init({
     resources,
     lng: 'en', 
-    fallbackLng: 'en', // Corrected: added a comma here
+    fallbackLng: 'en', 
     debug: true,
     interpolation: {
-      escapeValue: false // React already escapes by default
+      escapeValue: false 
     }
   });
 
