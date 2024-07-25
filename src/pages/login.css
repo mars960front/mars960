@@ -90,3 +90,11 @@
   color: lightblue;
   transform: translateY(-30px);
 }
+
+.alert {
+  transition: all 1s ease-out;
+}
+
+.alert.fade-out {
+  opacity: 0;
+}
